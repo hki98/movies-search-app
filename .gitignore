@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# GitHub setup files
+GITHUB_INSTRUCTIONS.md
+GITHUB_CHECKLIST.md
+
+# Shell and batch scripts
+*.sh
+*.bat
+*.cmd
+*.ps1
