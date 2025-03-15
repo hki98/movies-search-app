@@ -102,4 +102,4 @@ A modern React application that allows users to search for movies using The Movi
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2024 Haian Ibrahim
+Copyright (c) 2025 Haian Ibrahim
