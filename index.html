@@ -2,12 +2,71 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Primary Meta Tags -->
+    <title>(EDUCATIONAL) Movies Search App | Find Movies You'll Enjoy Without the Hassle</title>
+    <meta name="title" content="Movies Search App | Find Movies You'll Enjoy Without the Hassle">
+    <meta name="description" content="Discover and search through thousands of movies using TMDB's extensive database. View trending movies and get personalized recommendations.">
+    <meta name="keywords" content="movies, search, TMDB, film database, movie recommendations, trending movies">
+    <meta name="author" content="Haian Ibrahim">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React 19 Movies App</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/logo.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://haian.me/demo/movies-app/">
+    <meta property="og:title" content="Movies Search App | Find Movies You'll Enjoy Without the Hassle">
+    <meta property="og:description" content="Discover and search through thousands of movies using TMDB's extensive database. View trending movies and get personalized recommendations.">
+    <meta property="og:image" content="https://haian.me/demo/movies-app/hero.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://haian.me/demo/movies-app/">
+    <meta property="twitter:title" content="Movies Search App | Find Movies You'll Enjoy Without the Hassle">
+    <meta property="twitter:description" content="Discover and search through thousands of movies using TMDB's extensive database. View trending movies and get personalized recommendations.">
+    <meta property="twitter:image" content="https://haian.me/demo/movies-app/hero.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://haian.me/demo/movies-app/">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://image.tmdb.org">
+    
+    <!-- Theme color for browser -->
+    <meta name="theme-color" content="#030014">
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Structured data for rich results -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Movies Search App",
+        "description": "Discover and search through thousands of movies using TMDB's extensive database. View trending movies and get personalized recommendations.",
+        "url": "https://haian.me/demo/movies-app/",
+        "applicationCategory": "Entertainment",
+        "operatingSystem": "Web",
+        "author": {
+          "@type": "Person",
+          "name": "Haian Ibrahim",
+          "url": "https://github.com/hki98"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
   </body>
 </html>
