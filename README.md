@@ -92,6 +92,9 @@ A modern React application that allows users to search for movies using The Movi
   </p>
 </div>
 
+## 💎 NOTICE
+<h3 align="center">This app has been built as an educational material following the awesome tutorial by: <a href="https://www.youtube.com/@javascriptmastery" target="_blank" title="JavaScript Mastery YouTube Channel">JSM</h3>
+
 ## 📄 License
 
 <div align="center">
